@@ -35,7 +35,7 @@ public class Rectangulo extends Poligono {
     //---METODOS-----------------------
     @Override
     public String toString() {
-        return "Rectangulo"+super.toString()+"\nLado 1: " + lado1 + "\nLado 2: " + lado2;
+        return "Rectangulo:\n"+super.toString()+"\nLado 1: " + lado1 + "\nLado 2: " + lado2;
     }
 
     @Override
