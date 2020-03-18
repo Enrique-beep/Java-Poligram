@@ -20,9 +20,12 @@ public abstract class Poligono {
     public void setNumeroLados(int numeroLados) {
         this.numeroLados = numeroLados;
     }
-
     
-
     //---METODOS-----------------------
+    @Override
+    public String toString() {
+        return "Numero de lados: " + numeroLados;
+    }
 
+    public abstract double area();
 }
